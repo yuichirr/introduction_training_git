@@ -19,7 +19,6 @@ main{
 .contents-box{
   width:300px;
   margin-right:30px;
-  display:inline-block;
   background-color: #EEEEEE;
   position: relative;
 }
@@ -77,11 +76,13 @@ footer{
 @media screen and (max-width: 768px) {
   main{
     width:100%;
+    display: block;
   }
 
   .contents-box{  
     width: 90%;
     display: block;
+    margin: 0 auto 20px;
   }
 
   .contents-main{
